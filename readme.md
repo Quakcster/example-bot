@@ -1,51 +1,32 @@
-# Feathered Bots Discord.js V13 Example Bot Using Slash Commands! 
+# Welcome to Feathered Discord Bots Example Bot
 
-
-(You May Or Maynot Have To But Go To: Terminal -> new Terminal And Type npm i To Make Sure All Packages Are Installed)
-
-
-HOW TO SETUP THE .env FILE!
-
-To Start Coding Your FIrst Discord Bot First Visit This Page: https://discord.com/developers/applications
-
-Sign In -> Create Application -> Click Bot And Create Bot
-
-You Will Need To Reset The Bots Token Once The Token Has Been Reset
-
-Copy The Bots Token And Paste It In The .env.example File (ALSO RENAME THE .env.example TO JUST .env)
-
-And Copy The Application ID And Paste Into The .env Next To CLIENTID
-
-Now Save The File!
+### I Just Want To Thank You For Taking The Time To Learn And Understand How To Make Your Very Own Music Bot And Thank You For Using My Example Bot To Do That! Please If You Are Going To Use This For A Video Or Advertise It Others Please All I Ask IS That You Give Me Credit For The Code I Have Supplied For You
 
 
 
+## First Things First Before You Blast Off  🚀
 
-HOW TO MAKE COMMANDS!
+#### You Will Want To Clone This Repository To Do This You Will Want To Create A Folder Then Open The Folder In Your Code Editor That Being VC Studio Code For Windows And ATOM for Apple Products , Then Open A New Terminal And Type The Command (git clone https://github.com/Quakcster/example-bot.git) This Will Clone The Current Repo To The Folder After Successfully Cloning The Repo Follow The Steps Below.
 
-To Start Editing Commands Navigate To Commands Folder And Go To Example.js File
+#### Then You Will Want To Create A Bot By Going To https://discord.com/developers/applications Signing And Creating An Application Then Click On The Bot Tab And Left And Click Create Bot This Will Successfully Create Your Bot, (You Will Have To Reset Bots Token) And you Will See Application Id This Is Your Bots client Id You Will Need These For A Later Step!
 
-Change The Name From example.js To <COMMAND NAME>.js
+## Setting Up Your Environment Variables (.env)
 
-Replace The Name, Description, And Content With The Command You Want To Add
+#### Within The Folder You Will See A File Named .env.example Rename This File Just To .env And Open in The Editor You Will See, CLIENTID= & BOT_TOKEN= This Is Where You Will Paste Your Token For Your Bot And Your Bots Client ID You Can Get Both Of These From https://discord.com/developers/applications And Copy Your Bots Token And Paste It Next To BOT_TOKEN= And Then Copy Your Bots ApplicationID And Paste It Next To  CLIENTID= And Save This Is All You Need To Do For This File.
 
-You Can Then Make A New File Under The Commands Folder And Name It <COMMAND NAME>.js
+## Making Your First Command 🗒️
+#### Now Open Events/Commands/example.js In Your Code Editor, And You Will See This Is The Example Code For A Slash Command, Now You Can Either Copy This Command Into A New File Made Within The Command Folder And Name It The Command You Want To Make Or You Can Just Rewrite The Code That Is In The Example.js And Rename The File To The Name Of Your Command,
 
-You Can Then Simply Copy The Example Code To The New Folder And Edit The Requirements Accordingly
+#### You Will Need To The Edit The "THE COMMAND NAME HERE" To The Name Of Your Command And Set The Description To What You Want Your Description To Be Make Sure To Keep The Stuff Inside Of The `` Leave The Content Empty As This Is Not Needed, Then Fill Out The "YOUR REPLY/ACTION HERE" I Have Marked With A Comment Which Ones To Change And Which Ones To Leave Blank. If You Wish To Make More Commands Just Copy And Paste The Example.js Or The File You Just Made And Change The Information To Whichever Command You Decide To Create Next!
+
+## Deploying The Command To Your Server  🗄️
+#### Invite The Bot To Your Server By Going To Applications/YOURBOTNAME Then Clicking OAuth2 And Make Sure To Click Bot And applications.commands So The Bot Can Make Make Slash Commands In Your Server, If It Is Your Server Your Making The Bot For Then Give It Admin Permissions If Its Another Discord Give It The Required Perms As You Might Not Be Able To Invite It With Admin Perms, Once your Bot Is In Your Server Go To Your Code Editor And Open A New Terminal And Type In node Deploy-Commands.js and Let It Deploy The Commands Once The Commands Are Deployed go Ahead And Type node index.js To Start The Bot! Now If The Bot Isnt Working Or The Commands Arnt Deploying Go Ahead And Just Kick The Bot And Re-invite It To Your Discord And You Should Be Good To Go!
+
+## My Information:
+
+### My Developer Discord: https://discord.gg/qxFgFa5SrD
+### My Discord Tag: Quakcington#1337
 
 
-ADDING THE BOT AND PUSHING COMMANDS!
-
-Invite Your Bot To Your Server And Give it The Required Commands:
-
-YOUR BOT NAME -> OAuth2 -> URL Generator -> Select Bot -> The Permissions You Wish To Grant It (OR GIVE IT ADMIN IF ITS ON YOUR TEST SERVER)
-
-
-Now You Have Your Bot Is In Your Server
-
-Open The Terminal By Going To: Terminal -> new Terminal
-
-And First Type: node deploy-commands.js (TYPING THIS WILL PUSH THE COMMANDS TO YOUR SERVER)
-
-Then Once The Commands Have Been Pushed Type: node index.js To Bring Your Bot Online And Test The Commands!
+## Happy Creating!
 
